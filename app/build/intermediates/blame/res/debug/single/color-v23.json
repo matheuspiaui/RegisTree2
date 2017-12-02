@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/matheus/AndroidStudioProjects/RegisTree2/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/matheus/.android/build-cache/f1b850db1718b6972a5011ff883b9cae244154ac/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/matheus/AndroidStudioProjects/RegisTree2/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/matheus/.android/build-cache/f1b850db1718b6972a5011ff883b9cae244154ac/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/matheus/AndroidStudioProjects/RegisTree2/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/matheus/.android/build-cache/f1b850db1718b6972a5011ff883b9cae244154ac/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/matheus/AndroidStudioProjects/RegisTree2/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/matheus/.android/build-cache/f1b850db1718b6972a5011ff883b9cae244154ac/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/matheus/AndroidStudioProjects/RegisTree2/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/matheus/.android/build-cache/f1b850db1718b6972a5011ff883b9cae244154ac/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/matheus/AndroidStudioProjects/RegisTree2/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/matheus/.android/build-cache/f1b850db1718b6972a5011ff883b9cae244154ac/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/matheus/AndroidStudioProjects/RegisTree2/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/matheus/.android/build-cache/348f0a5a50ae225118b90c9560d37f85af2c70f3/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/matheus/AndroidStudioProjects/RegisTree2/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/matheus/.android/build-cache/f1b850db1718b6972a5011ff883b9cae244154ac/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/matheus/AndroidStudioProjects/RegisTree2/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/matheus/.android/build-cache/f1b850db1718b6972a5011ff883b9cae244154ac/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/matheus/AndroidStudioProjects/RegisTree2/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/matheus/.android/build-cache/f1b850db1718b6972a5011ff883b9cae244154ac/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/matheus/AndroidStudioProjects/RegisTree2/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/matheus/.android/build-cache/f1b850db1718b6972a5011ff883b9cae244154ac/output/res/color-v23/abc_tint_default.xml"
+    }
+]

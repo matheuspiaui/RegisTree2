@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RegisTree</string>
+    <string-array name="categoria">
+        <item>Poda Incorreta</item>
+        <item>Erradicação da Árvore</item>
+        <item>Risco de Queda</item>
+        <item>Falta de Cuidados</item>
+    </string-array>
+    <string name="title_activity_main_voltar1">MainActivityVoltar1</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

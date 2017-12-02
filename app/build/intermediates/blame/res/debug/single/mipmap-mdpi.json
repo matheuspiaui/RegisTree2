@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/matheus/AndroidStudioProjects/RegisTree2/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/matheus/AndroidStudioProjects/RegisTree2/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/matheus/AndroidStudioProjects/RegisTree2/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/home/matheus/AndroidStudioProjects/RegisTree2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    }
+]

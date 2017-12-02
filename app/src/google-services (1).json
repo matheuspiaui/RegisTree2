@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "273907434179",
+    "firebase_url": "https://registree-f04fc.firebaseio.com",
+    "project_id": "registree-f04fc",
+    "storage_bucket": "registree-f04fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273907434179:android:f8ee46694ca072af",
+        "android_client_info": {
+          "package_name": "com.registree.registree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273907434179-gpvtelq18t4en0g101n5ra1tkhk0lev6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIE1nNnZi6tj7ENmub_SK05Ly2H3erlKc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
