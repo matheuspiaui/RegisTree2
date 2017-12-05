@@ -35,11 +35,13 @@ public class MainActivity extends AppCompatActivity {
         //Adicionando Nomes no ArrayList
         spCategoria.add("Risco de Queda");
         spCategoria.add("Falta de Cuidados");
+        spCategoria.add("Poda Incorreta");
+        spCategoria.add("Erradicação");
 
 
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, spCategoria);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_item, spCategoria);
         ArrayAdapter<String> spinnerArrayAdapter = arrayAdapter;
-        spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
+        spinnerArrayAdapter.setDropDownViewResource(android.R.layout.select_dialog_item);
         categoria.setAdapter(spinnerArrayAdapter);
 
         //

@@ -1,4 +1,4 @@
-#Thu Nov 30 21:48:37 BRST 2017
+#Mon Dec 04 22:03:00 BRST 2017
 base.0=/home/matheus/AndroidStudioProjects/RegisTree2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b10aff4dcc99ed7133b345e69effebb2f93f1299
 renamed.1=classes2.dex
 renamed.0=classes.dex

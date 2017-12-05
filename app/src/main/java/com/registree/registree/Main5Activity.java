@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.registree.registree.domain.Denuncia;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -39,7 +40,7 @@ public class Main5Activity extends AppCompatActivity {
         descricao.setText(intent.getStringExtra("descricao").toString());
         endereco.setText("Rua "+intent.getStringExtra("rua").toString()+
                         ", "+intent.getStringExtra("numero").toString()+"" +
-                " - "+intent.getStringExtra("bairro").toString().toString()+"/n" +
+                " - "+intent.getStringExtra("bairro").toString().toString()+ "\n" +
                 "Ponto de Referencia: " + intent.getStringExtra("referencia").toString());
 
         categoria.setText("Categoria: " + intent.getStringExtra("categoria").toString());
@@ -62,25 +63,30 @@ public class Main5Activity extends AppCompatActivity {
 
     public void salvar (View view){
 
-        Intent intent = getIntent();
+        try {
+            Denuncia denuncia = new Denuncia();
+            Intent intent = getIntent();
 
-        DatabaseReference firebase = FirebaseDatabase.getInstance().getReference("denuncia/");
+            DatabaseReference firebase = FirebaseDatabase.getInstance().getReference("denuncia/");
 
+            denuncia.setTitulo(intent.getStringExtra("titulo").toString());
+            denuncia.setDescricao(intent.getStringExtra("descricao").toString());
+            denuncia.setCategoria(intent.getStringExtra("categoria").toString());
+            denuncia.setRua(intent.getStringExtra("rua").toString());
+            denuncia.setNumero(intent.getStringExtra("numero").toString());
+            denuncia.setBairro(intent.getStringExtra("bairro").toString());
+            denuncia.setReferencia(intent.getStringExtra("referencia").toString());
+            String currentDateTimeString = DateFormat.getDateInstance().format(new Date());
+            denuncia.setData(currentDateTimeString);
 
+//            firebase.push().child("denuncia").setValue(denuncia);
+            firebase.push().setValue(denuncia);
 
-        firebase.push().child("titulo").setValue(intent.getStringExtra("titulo").toString());
-        firebase.push().child("descricao").setValue(intent.getStringExtra("descricao").toString());
-        firebase.push().child("categoria").setValue(intent.getStringExtra("categoria").toString());
-        firebase.push().child("rua").setValue(intent.getStringExtra("rua").toString());
-        firebase.push().child("numero").setValue(intent.getStringExtra("numero").toString());
-        firebase.push().child("bairro").setValue(intent.getStringExtra("bairro").toString());
-        firebase.push().child("referencia").setValue(intent.getStringExtra("referencia").toString());
-        String currentDateTimeString = DateFormat.getDateInstance().format(new Date());
-        firebase.push().child("data").setValue(currentDateTimeString);
+            Intent objeto = new Intent(this, Main6Activity.class);
 
-        Intent objeto = new Intent(this, Main6Activity.class);
-
-        startActivity(objeto);
-
+            startActivity(objeto);
+        }catch (RuntimeException e){
+            e.printStackTrace();
+        }
     }
 }
